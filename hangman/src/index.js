@@ -1,5 +1,6 @@
 import HangmanGame from "./javascript";
 import {getData} from "./requests";
+
 "use strict";
 
 const puzzleWordElement = document.querySelector("#word");
