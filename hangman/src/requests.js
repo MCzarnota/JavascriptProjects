@@ -1,5 +1,5 @@
-//HTTP request
-const getData = async (wordCount) =>{
+
+export const getData = async (wordCount) =>{
     let response = await fetch(`http://puzzle.mead.io/puzzle?wordCount=${wordCount}`)
     
     if (response.status === 200 ) {

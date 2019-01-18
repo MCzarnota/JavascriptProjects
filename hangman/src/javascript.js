@@ -64,3 +64,5 @@ class HangmanGame {
                 `);
     }
 }
+
+export {HangmanGame as default}
